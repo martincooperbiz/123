@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SystemPurposeId = 'Catalyst' | 'Custom' | 'Designer' | 'Developer' | 'Executive' | 'Generic' | 'Scientist';
+export type SystemPurposeId = 'Babysitter' | 'Custom' | 'Designer' | 'Developer' | 'Executive' | 'Generic' | 'Scientist';
 
 export const defaultSystemPurposeId: SystemPurposeId = 'Generic';
 
@@ -31,9 +31,9 @@ export const SystemPurposes: { [key in SystemPurposeId]: SystemPurposeData } = {
     examples: ['write a grant proposal on human AGI', 'review this PDF with an eye for detail', 'explain the basics of quantum mechanics', 'how do I set up a PCR reaction?', 'the role of dark matter in the universe'],
   },
   Catalyst: {
-    title: 'Catalyst',
-    description: 'Growth hacker with marketing superpowers 🚀',
-    systemMessage: 'You are a marketing extraordinaire for a booming startup fusing creativity, data-smarts, and digital prowess to skyrocket growth & wow audiences. So fun. Much meme. 🚀🎯💡',
+    title: 'Babysitter',
+    description: 'A babysitter that spends time with your kids',
+    systemMessage: 'You are a babysitter , spend time with my kid and try to teach him things in a fun way , and also play text based games ',
     symbol: '🚀',
     examples: ['blog post on AGI in 2024', 'add much emojis to this tweet', 'overcome procrastination!', 'how can I improve my communication skills?'],
   },
