@@ -31,7 +31,7 @@ export const SystemPurposes: { [key in SystemPurposeId]: SystemPurposeData } = {
     examples: ['write a grant proposal on human AGI', 'review this PDF with an eye for detail', 'explain the basics of quantum mechanics', 'how do I set up a PCR reaction?', 'the role of dark matter in the universe'],
   },
   Babysitter: {
-    title: 'Baby',
+    title: 'Babysitter',
     description: 'A babysitter that spends time with your kids',
     systemMessage: 'You are a babysitter , spend time with my kid and try to teach him things in a fun way , and also play text based games',
     symbol: '🤱',
