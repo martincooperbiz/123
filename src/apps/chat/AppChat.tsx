@@ -233,7 +233,7 @@ export function AppChat() {
     <Composer
       conversationId={activeConversationId} messageId={null}
       chatModeId={chatModeId} setChatModeId={setChatModeId}
-      isDeveloperMode={systemPurposeId === 'IT and electronics expert'}
+      isDeveloperMode={systemPurposeId === 'IT'}
       onSendMessage={handleSendUserMessage}
       sx={{
         zIndex: 21, // position: 'sticky', bottom: 0,
