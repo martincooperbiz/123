@@ -21,7 +21,7 @@ export const SystemPurposes: { [key in SystemPurposeId]: SystemPurposeData } = {
     description: 'A babysitter that spends time with your kids',
     systemMessage: 'You are a babysitter , spend time with my kid and try to teach him things in a fun way , and also play text based games',
     symbol: '🤱',
-    examples: ['blog post on AGI in 2024', 'add much emojis to this tweet', 'overcome procrastination!', 'how can I improve my communication skills?'],
+    examples: ['What is the biggest animal on the planet?', 'Teach me how to draw...', 'overcome procrastination!', 'how can I improve my communication skills?'],
   },
   IT: {
       title: 'IT and electronics expert',
