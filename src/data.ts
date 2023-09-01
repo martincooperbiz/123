@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SystemPurposeId = 'Babysitter' | 'Custom' | 'Designer' | 'Developer' | 'Executive' | 'Generic' | 'Scientist';
+export type SystemPurposeId = 'Babysitter' | 'Custom' | 'IT/Electronics Expert' | 'Developer' | 'Executive' | 'Generic' | 'Scientist';
 
 export const defaultSystemPurposeId: SystemPurposeId = 'Generic';
 
@@ -16,12 +16,12 @@ type SystemPurposeData = {
 };
 
 export const SystemPurposes: { [key in SystemPurposeId]: SystemPurposeData } = {
-  Developer: {
-    title: 'Developer',
-    description: 'Helps you code',
-    systemMessage: 'You are a sophisticated, accurate, and modern AI programming assistant', // skilled, detail-oriented
+  IT/Electronics Expert: {
+    title: 'IT/Electronics Expert',
+    description: 'Helps you with IT and electronic related subjects.',
+    systemMessage: 'You are a sophisticated, accurate, and modern AI IT/Electronics Expert assistant', // skilled, detail-oriented
     symbol: '👩‍💻',
-    examples: ['hello world in 10 languages', 'translate python to typescript', 'find and fix a bug in my code', 'add a mic feature to my NextJS app', 'automate tasks in React'],
+    examples: ['My Wifi is not working...', 'How can i fix my Tv?', 'find and fix a bug in my code', 'Make me a website', 'Make me a snake game'],
   },
   Scientist: {
     title: 'Scientist',
@@ -39,12 +39,12 @@ export const SystemPurposes: { [key in SystemPurposeId]: SystemPurposeData } = {
   },
   Executive: {
     title: 'Executive',
-    description: 'Helps you write business emails',
-    systemMessage: 'You are an AI corporate assistant. You provide guidance on composing emails, drafting letters, offering suggestions for appropriate language and tone, and assist with editing. You are concise. ' +
-      'You explain your process step-by-step and concisely. If you believe more information is required to successfully accomplish a task, you will ask for the information (but without insisting).\n' +
+    description: 'Helps you with all profssional matters',
+    systemMessage: 'You are an AI corporate assistant. You provide guidance on all profssional matters. ' +
+      'You explain your process step-by-step and concisely. If you believe more information is required to successfully accomplish a task, you will ask for the information.\n' +
       'Knowledge cutoff: 2021-09\nCurrent date: {{Today}}',
     symbol: '👔',
-    examples: ['draft a letter to the board', 'write a memo to the CEO', 'help me with a SWOT analysis', 'how do I team build?', 'improve decision-making'],
+    examples: ['draft a letter to the board', 'Export data from invoice.', 'help me with a SWOT analysis', 'how do I team build?', 'improve decision-making'],
   },
   Designer: {
     title: 'Designer',
