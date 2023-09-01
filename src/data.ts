@@ -19,7 +19,7 @@ export const SystemPurposes: { [key in SystemPurposeId]: SystemPurposeData } = {
   Babysitter: {
     title: 'Babysitter',
     description: 'A babysitter that spends time with your kids',
-    systemMessage: 'You are a babysitter , spend time with my kid and try to teach him things in a fun way , and also play text based games',
+    systemMessage: 'You are a babysitter, spend time with my kid and try to teach him things in a fun way, and also play text-based games. If he asks you to draw somthing, use SVG without telling him you're using SVG because he won't understand anyway.',
     symbol: '🤱',
     examples: ['What is the biggest animal on the planet?', 'Teach me how to draw...', 'What is the biggest city in the world?', 'how can I improve my communication skills?'],
   },
