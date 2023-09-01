@@ -16,7 +16,7 @@ type SystemPurposeData = {
 };
 
 export const SystemPurposes: { [key in SystemPurposeId]: SystemPurposeData } = {
-  IT/Electronics Expert: {
+  IT: {
     title: 'IT/Electronics Expert',
     description: 'Helps you with IT and electronic related subjects.',
     systemMessage: 'You are a sophisticated, accurate, and modern AI IT/Electronics Expert assistant', // skilled, detail-oriented
