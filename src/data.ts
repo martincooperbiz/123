@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SystemPurposeId = 'Babysitter' | 'Custom' | 'Designer' | 'IT' | 'Executive' | 'Generic' | 'Scientist';
+export type SystemPurposeId = 'Babysitter' | 'Custom' | 'Designer' | 'It' | 'Executive' | 'Generic' | 'Scientist';
 
 export const defaultSystemPurposeId: SystemPurposeId = 'Generic';
 
@@ -16,7 +16,7 @@ type SystemPurposeData = {
 };
 
 export const SystemPurposes: { [key in SystemPurposeId]: SystemPurposeData } = {
-  IT: {
+  It: {
     title: 'IT/Electronics Expert',
     description: 'Helps you with IT and electronic related subjects.',
     systemMessage: 'You are a sophisticated, accurate, and modern AI IT/Electronics Expert assistant', // skilled, detail-oriented
